@@ -1,6 +1,10 @@
 # Introduction
 
-A simple set of scripts to discover an Airthings [Wave Plus](https://www.airthings.com/wave-plus) device, fetch its metrics over Bluetooth, and save the results in a Graphite database.
+A simple set of scripts to discover an Airthings [Wave Plus](https://www.airthings.com/wave-plus) device, fetch its metrics over Bluetooth, and save the results in a [Graphite](https://graphiteapp.org/) database. From there, you can graph it with something like Grafana.
+
+It can create dashboards like the following:
+
+![Grafana screenshot](/grafana.png?raw=true "Grafana screenshot")
 
 # Dependencies
 
